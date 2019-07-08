@@ -1,5 +1,5 @@
 # SudokuSolver
-An executable program that solves a Sudoku puzzle using a Backtrack algorithm. TkInter was used to create the GUI and PyInstaller was used to create the executable file.
+An executable program that solves a Sudoku puzzle using a Backtrack algorithm. TkInter was used to create the GUI and PyInstaller was used to create a .exe file.
 
 # What I Learned
 * How the Backtrack algorithm can be used to solve complex number problems like a Sudoku puzzle
