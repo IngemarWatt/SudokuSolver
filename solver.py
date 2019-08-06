@@ -72,7 +72,6 @@ def resetBoard():
 # Proivides main functionality. Recursively solves sudoku
 def solve(board):
     #Base case of solved board when no squares are empty
-    #print(randint(0, 9))#Random number to check inactivity
     find = findEmpty(board)
     if not find:
         return True
