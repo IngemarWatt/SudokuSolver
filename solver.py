@@ -22,7 +22,6 @@ boardFrame.place(relx=0.15, rely=0.06, relwidth = 0.7, relheight = 0.85)
 label = tk.Label(frame, text="Sudoku Solver", bg='yellow', font = ("Calibri 24"))
 label.place(relx=0.3, rely = 0, relwidth=0.4, relheight=0.06)
 
-
 #Creating two 9x9 arrays, one for the entries and one for the StringVars
 entries = [[None for i in range(9)] for j in range(9)]
 stringVars = [[None for i in range(9)] for j in range(9)]
@@ -35,7 +34,6 @@ for row in range(9):
         stringVars[row][col] = (stringVar)
         entries[row][col] = (tk.Entry(boardFrame, width='1', font = ("Calibri 24"), textvariable = stringVar))
         entries[row][col].place(relx=((col * 0.11) + (col//3 * 0.01)), rely = ((row * 0.11) + (row//3 * 0.01)), relwidth = 0.1)
-
 
 #Function to display the solved board in the GUI
 def displayBoard(board):
